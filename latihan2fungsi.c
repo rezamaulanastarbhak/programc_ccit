@@ -6,6 +6,8 @@ int mask3(int x, int y, int z){
 }
 int main(){
     int x,y,z;
+    int a = 10;
+    int nilai[3] = {50, 80, 80, 90};
     printf("masukkan angka : ");
     scanf("%d %d %d", &x, &y, &z);
     printf("angka terbesar adalah %d",mask3(x, y, z));
